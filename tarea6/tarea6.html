@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Document</title>
+
+</head>
+
+<body>
+  <script src="tarea6.js"></script>
+<table>
+<tbody>
+<tr>
+<td>
+<h1 style="text-align: center;"><img src="http://dgregistro_civil.edomex.gob.mx/sites/dgregistro_civil.edomex.gob.mx/files/images/imagenes/logocurpedomex.jpg" alt="CURP" width="200" height="100" /></h1>
+</td>
+</tr>
+</tbody>
+</table>
+<table style="height: 492px;" width="729">
+<tbody>
+<tr>
+<td>
+<h2><strong>&nbsp;Nombre</strong></h2>
+</td>
+<td>&nbsp;<input type="text" name="Nombre" id="Nombre" /> </td>
+</tr>
+<tr>
+<td>
+<h2><strong>Apellido Paterno</strong></h2>
+</td>
+<td>&nbsp; <input type="text" name="ApellidoP" id="ApellidoP" />  </td>
+</tr>
+<tr>
+<td>
+<h2><strong>Apellido Materno</strong></h2>
+</td>
+<td>&nbsp;<input type="text" name="ApellidoM" id="ApellidoM" /></td>
+</tr>
+<tr>
+<td>
+<h2><strong>&nbsp;Fecha Nacimiento</strong></h2>
+</td>
+<td>&nbsp;<input type="date" id="DateBirth" value="1900-01-01"></td>
+</tr>
+<tr>
+<td>
+<h2><strong>&nbsp;Estado</strong></h2>
+</td>
+<td>&nbsp;
+<select id="ddlViewState">
+  <option value='AS'	>	Aguascalientes	</option>
+ <option value=	'BC'	>	Baja California	</option>
+ <option value=	'BS'	>	Baja California Sur	</option>
+ <option value=	'CC'	>	Campeche	</option>
+ <option value=	'CS'	>	Chiapas	</option>
+ <option value=	'CH'	>	Chihuahua	</option>
+ <option value=	'CL'	>	Coahuila	</option>
+ <option value=	'CM'	>	Colima	</option>
+ <option value=	'DF'	>	Distrito Federal	</option>
+ <option value=	'DG'	>	Durango	</option>
+ <option value=	'GT'	>	Guanajuato	</option>
+ <option value=	'GR'	>	Guerrero	</option>
+ <option value=	'HG'	>	Hidalgo	</option>
+ <option value=	'JC'	>	Jalisco	</option>
+ <option value=	'MC'	>	México	</option>
+ <option value=	'MN'	>	Michoacan	</option>
+ <option value=	'MS'	>	Morelos	</option>
+ <option value=	'NT'	>	Nayarit	</option>
+ <option value=	'NL'	>	Nuevo León	</option>
+ <option value=	'OC'	>	Oaxaca	</option>
+ <option value=	'PL'	>	Puebla	</option>
+ <option value=	'QT'	>	Querétaro	</option>
+ <option value=	'QR'	>	Quintana Roo	</option>
+ <option value=	'SP'	>	San Luis Potosí	</option>
+ <option value=	'SL'	>	Sinaloa	</option>
+ <option value=	'SR'	>	Sonora	</option>
+ <option value=	'TC'	>	Tabasco	</option>
+ <option value=	'TL'	>	Tlaxcala	</option>
+ <option value=	'TS'	>	Tamaulipas	</option>
+ <option value=	'VZ'	>	Veracruz	</option>
+ <option value=	'YN'	>	Yucatán	</option>
+ <option value=	'ZS'	>	Zacatecas	</option>
+</select> <br></td>
+</tr>
+<tr>
+<td>
+<h2><strong>&nbsp;Curp</strong></h2>
+</td>
+<td>&nbsp; <input type="text" name="CURP" id="CURP" /></td>
+</tr>
+
+<tr>
+<td>
+<h2><strong>&nbsp;Sexo</strong></h2>
+</td>
+<td>&nbsp; <form>
+   <input type="radio" name="Sexos" id="Hombre">Hombre<br>
+  <input type="radio" name="Sexos" id="Mujer">Mujer <br>
+  <strong> Embarazada </strong>  <input type="checkbox" name="Pregnant" id="Pregnant" value="Pregnant" disabled > <br>
+</form>
+     </td>
+</tr>
+
+</tbody>
+</table>
+
+
+
+
+
+
+<div id="TexboxArea"><textarea id="CurpJson"></textarea> </div>
+</body>
+ 
+
+</html>
